@@ -22,3 +22,5 @@ var book = "A smarter way to learn Javascript";
 alert("I am trying to learn from the Book " + book)
 
 document.write("Yah! I can write HTML content through Javascript")
+
+
