@@ -18,8 +18,8 @@
 // }
 
 // quetion 5
-var coun = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
-for(var i = 0; i < coun.length; i++){
-    document.write(i + ",")
-
-}
+// var coun = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+// for(var i = 0; i < coun.length; i++){
+//     document.write(i + ",")
+// }
+var coookies = ["cake", "apple pie", ""]

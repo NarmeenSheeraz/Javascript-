@@ -241,27 +241,27 @@ var num = 22;
 
 // }
 
-var iceImg1 = [
-    "https://g-cdn.blinkco.io/ordering-system/55860/dish_image/1738659245260.png",
-    "https://g-cdn.blinkco.io/ordering-system/55860/dish_image/1738659258143.png",
-    "https://g-cdn.blinkco.io/ordering-system/55860/dish_image/1738659272276.png",
-    "https://g-cdn.blinkco.io/ordering-system/55860/dish_image/1738659245260.png",
-    "https://g-cdn.blinkco.io/ordering-system/55860/dish_image/1738659258143.png",
-    "https://g-cdn.blinkco.io/ordering-system/55860/dish_image/1738659272276.png",
-    "https://g-cdn.blinkco.io/ordering-system/55860/dish_image/1738659308485.png"
-];
+// var iceImg1 = [
+//     "https://g-cdn.blinkco.io/ordering-system/55860/dish_image/1738659245260.png",
+//     "https://g-cdn.blinkco.io/ordering-system/55860/dish_image/1738659258143.png",
+//     "https://g-cdn.blinkco.io/ordering-system/55860/dish_image/1738659272276.png",
+//     "https://g-cdn.blinkco.io/ordering-system/55860/dish_image/1738659245260.png",
+//     "https://g-cdn.blinkco.io/ordering-system/55860/dish_image/1738659258143.png",
+//     "https://g-cdn.blinkco.io/ordering-system/55860/dish_image/1738659272276.png",
+//     "https://g-cdn.blinkco.io/ordering-system/55860/dish_image/1738659308485.png"
+// ];
 
-var iceHea1 = [
-    "Vanilla Swirl",
-    "Vanilla Brownie Swirl",
-    "Vanilla Cookies Swirl",
-    "Vanilla Swirl",
-    "Vanilla Brownie Swirl",
-    "Vanilla Cookies Swirl",
-    "Choclate"
-];
+// var iceHea1 = [
+//     "Vanilla Swirl",
+//     "Vanilla Brownie Swirl",
+//     "Vanilla Cookies Swirl",
+//     "Vanilla Swirl",
+//     "Vanilla Brownie Swirl",
+//     "Vanilla Cookies Swirl",
+//     "Choclate"
+// ];
 
-var icePrice1 = [170, 240, 240, 170, 240, 240, 90];
+// var icePrice1 = [170, 240, 240, 170, 240, 240, 90];
 
 /* Parent Flex Container */
 // document.write(`
@@ -332,34 +332,77 @@ var icePrice1 = [170, 240, 240, 170, 240, 240, 90];
 //  }
 
 
+// var arr = ["narmeen", "maryam", "saniya", "laiba", "aqsa"]
+// var findName = "sania";
+// var flag = false ;
+// for(var j = 0; j < arr.length; j++){
+//   if(findName.toLowerCase() === arr[j].toLowerCase()){
+//     console.log(findName +" is found in array at index " + j)
+//     flag = true;
+//     break
+//   }
+// }
+
+// if(!flag){
+//    console.log(findName +" is not found in array")
+// }
 
 
+// for(var i = 0; i <= 4; i++){
+//     for(j = 1; j <= 5; j++){
+//         console.log("*");
+        
+//     }
+//     console.log("<br>");
+    
+// }
+
+// for(var i = 0; i <= 4; i++){
+//     for(var k = 1; k <= 5-1; i++){
+//         document.write(" ")
+//         for(j = 1; j <= i; j++){
+//         document.write("*");
+        
+//     }
+//     }
+//     document.("<br>");
+    
+// }
 
 
+// var arr = [[["apple", "banana", "mango"],["narangi", "nagin"]]]
+
+// var a = Math.ceil(Math.random() * 6) 
+// console.log(a);
+
+// onclick
+// document.getElementById
+// document.getElementsByClassName
+// innerhtml
+
+// Random password generater
+
+// var str = "qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM1234567890!@#$%^&*(){}[]<>";
+// var password = "";
+// for (var i = 0; i<12; i++){
+//     randonIndex = Math.floor(Math.random() * str.length);
+//     password += str[randonIndex];
+// }
+// console.log(password)
+
+// var dateCurr = new Date();
+// var dateRam = new Date("") //month - date - year
 
 
+// var getDate =prompt( "enter ur Dob month-date-year");
+// var date = new Date()
+// var userDate = new Date(getDate)
+// var diff = date.getTime() - userDate.getTime();
+// var updDiff =Math.floor( diff / (12 * 30 * 24 * 60 *60 *1000));
+// console.log(updDiff);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+var getAge =prompt("Enter ur Age");
+var date = new Date()
+var var updDiff =Math.floor( diff * (12 * 30 * 24 * 60 *60 *1000));
 
