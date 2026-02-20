@@ -39,3 +39,35 @@
 // else if(month === 11){
 //     alert("December");
 // }
+
+
+// var date = new Date()
+// var day = date.getDay()
+// if(day === 0){
+//     alert("Today is Sun");
+// }
+// else if(month === 1){
+//     alert("Today is Mon");
+// }
+// else if(month === 2){
+//     alert("Today is Tue");
+// }
+// else if(month === 3){
+//     alert("Today is Wed");
+// }
+// else if(month === 4){
+//     alert("Today is Thu");
+// }
+// else if(month === 5){
+//     alert("Today is Fri");
+// }
+// else if(month === 6){
+//     alert("Today is Sat");
+// }
+
+
+var word = "Madam";
+for(var i = 0; i <=1; i++){
+}for(var j = -1; j<= -2; i--){
+console.log(word[i]);
+}

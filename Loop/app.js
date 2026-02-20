@@ -402,7 +402,85 @@ var num = 22;
 // console.log(updDiff);
 
 
-var getAge =prompt("Enter ur Age");
-var date = new Date()
-var var updDiff =Math.floor( diff * (12 * 30 * 24 * 60 *60 *1000));
+// var getAge =prompt("Enter ur Age");
+// var date = new Date()
+// var var updDiff =Math.floor( diff * (12 * 30 * 24 * 60 *60 *1000));
 
+
+// function calculateHyp(b, p){
+//     function calculateSqr(n){
+//         return n*n
+//     }
+    
+    
+//     var hypSqr = calculateSqr(b) + calculateSqr(p);
+//     console.log(hypSqr);
+    
+// }
+// calculateHyp(6, 7)
+
+// function aeverageCal(sub1, sub2, sub3, sub4){
+//  if(sub1 > 100 || sub2 > 100 || sub3 > 100 || sub4 > 100){
+//     console.log("enter num less than 100");
+    
+//  }else{
+//     var calAve = (sub1 + sub2 + sub3 + sub4) / 4;
+//     console.log(calAve)
+//  }
+
+
+
+// }
+// var sub1Num = +prompt("enter ur subject 1 number")
+// var sub2Num = +prompt("enter ur subject 2 number")
+// var sub3Num = +prompt("enter ur subject 3 number")
+// var sub4Num = +prompt("enter ur subject 4 number")
+// aeverageCal(sub1Num, sub2Num, sub3Num, sub4Num)
+
+
+// function palin(){
+//     var paliGet = document.getElementById("palindrom").value ;
+//     var rever = ""
+//     for(var i = paliGet.length - 1; i >= 0 ; i--){
+//         rever += paliGet[i]
+//         console.log();
+        
+//     }
+//     if( rever == paliGet){
+//      var res = document.getElementById("result").innerHTML = "your word is palindrom"
+//     }else{
+        
+//       var res = document.getElementById("result").innerHTML = "your word is not palindrom"
+
+//     }
+    
+// }
+
+//  function palin(){
+//     var paliGet = document.getElementById("palindrom").value ;
+//     // var rever = ""
+//     for(var i = paliGet.length - 1; i >= 0 ; i--){
+//         // rever += paliGet[i]
+//         // console.log();
+        
+//     }
+//     if( paliGet[i] == paliGet){
+//      var res = document.getElementById("result").innerHTML = "your word is palindrom"
+//     }else{
+        
+//       var res = document.getElementById("result").innerHTML = "your word is not palindrom"
+
+//     }
+    
+// }
+
+
+var studentName = ["Narmeen", "Aqsa", 'Asma']
+var fatherName = ["Sheeraz", "Aijaz", "Ayaz"]
+var fullName = []
+for(var i = 0; i < studentName.length; i++){
+  fullName.push(studentName[i]+ " " +fatherName[i])
+
+}
+document.write(fullName);
+console.log(fullName);
