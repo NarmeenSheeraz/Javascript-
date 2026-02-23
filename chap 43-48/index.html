@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+
+<a href="#" onclick="showAlert()">Click Me</a>
+
+<!-- Question 2 -->
+
+<h2>Mobile Phone Lookup</h2>
+
+<img src="img/Iphone.webp" width="150" onclick="showName('iPhone')" />
+<img src="img/samsung.webp" width="150" onclick="showName('Samsung')" />
+<img src="img/vivo.webp" width="150" onclick="showName('Vivo')" />
+<img src="img/Huawei.webp" width="150" onclick="showName('Huawei')" />
+
+<!-- Question 3 -->
+
+<h2>Student Records</h2>
+
+<table border="1" id="studentTable">
+    <tr>
+        <th>Index</th>
+        <th>Name</th>
+        <th>Class</th>
+        <th>Action</th>
+    </tr>
+
+    <tr>
+        <td>0</td>
+        <td>Jhone</td>
+        <td>10</td>
+        <td><button onclick="deleteRow(this)">Delete</button></td>
+    </tr>
+
+    <tr>
+        <td>1</td>
+        <td>Doe</td>
+        <td>9</td>
+        <td><button onclick="deleteRow(this)">Delete</button></td>
+    </tr>
+
+    <tr>
+        <td>2</td>
+        <td>Mark</td>
+        <td>10</td>
+        <td><button onclick="deleteRow(this)">Delete</button></td>
+    </tr>
+
+    <tr>
+        <td>3</td>
+        <td>James</td>
+        <td>8</td>
+        <td><button onclick="deleteRow(this)">Delete</button></td>
+    </tr>
+
+</table>
+
+<!-- Question 4 -->
+
+<img src="img/samsung.webp" width="300"
+     onmouseover="changeImage(this)"
+     onmouseout="restoreImage(this)">
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
