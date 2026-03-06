@@ -1,0 +1,41 @@
+.formcon{
+    background-color: rgb(11, 121, 121);
+    /* width: 600px; */
+    margin: 10px auto;
+    /* padding: 10px; */
+    border-radius: 20px;
+    
+}
+.formcon h1{
+    color: white;
+    text-align: center;
+}
+
+.inputform{
+    width: 600px ;
+    background-color: rgb(29, 173, 173);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.inputform input{
+    width: 450px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: rgba(180, 206, 206, 0.822);
+    outline: none;
+}
+
+.inputform button{
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(28, 53, 53);
+    color: white;
+   
+}
